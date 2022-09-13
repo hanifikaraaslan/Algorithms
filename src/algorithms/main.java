@@ -1,9 +1,12 @@
 package algorithms;
 
+import algorithms.methods.BracketControl;
+
 public class main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		BracketControl bracketControl=new BracketControl();
+		bracketControl.controller("[]{(({}()))}");
 
 	}
 
